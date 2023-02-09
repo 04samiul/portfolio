@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1280px) {
+    .home {
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 1218px) {
+    nav{
+        padding: 25px 50px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    nav .left{
+        display: none;
+    }
+    nav {
+        height: 100vh;
+        flex-direction: column;
+        display: none;
+        background-color: rgba(28, 49, 94, 0.7);
+
+    }
+     .menu{
+        display: flex;
+    }
+    nav .center{
+        display: flex;
+        flex-direction: column;
+    }
+    .about {
+        height: min-content;
+    }
+
+    .about .flex {
+        flex-direction: column;
+    }
+
+    .about .flex .left,
+    .about .flex .right {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .flex .right {
+        flex-direction: row;
+
+    }
+
+}
+
+@media only screen and (max-width:625px) {
+
+    .projects .grid {
+        width: 91%;
+        height: 386px;
+    }
+
+    .skills .forntEnd {
+        width: 95%;
+
+    }
+
+    .education .edu .certi .result summary,
+    .education .award .certi .result summary {
+        max-width: 474px;
+        width: 88vw;
+    }
+
+    .education .award .result div {
+        width: 88vw;
+    }
+
+    .contact .form-container form .dbl-in {
+        flex-direction: column;
+    }
+
+    .contact .form-container form .dbl-in .in input,
+    .contact .form-container form .dbl-in .in textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about .left-right-container {
+        width: 95vw;
+    }
+
+    .education .edu .certi .result summary h2,
+    .education .award .certi .result summary h2 {
+        font-weight: 200;
+        font-size: 1.1rem;
+    }
+
+    .education .award .result div p {
+        font-size: 0.9rem;
+    }
+
+    .nav a {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width:365px) {
+    .contact .social .right .info a {
+        text-align: right;
+    }
+
+    .contact .social {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .about .flex .right {
+        flex-direction: column;
+
+    }
+}

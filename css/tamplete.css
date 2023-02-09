@@ -1,0 +1,78 @@
+/*----------------- Variable -----------------  */
+:root {
+
+
+
+    /* Color  */
+    --body-bg: #1C315E;
+    /* --bg: ; */
+    /* --2-color: ; */
+
+
+    /* Font Color  */
+    --font-color-1: #fff;
+    --font-color-2: #A8CDFF;
+    --font-color-3: #000;
+
+    /* Page Title Color  */
+    --Page-title-color-1: rgba(255, 255, 255, 0.5);
+    --Page-title-color-2: rgb(220, 20, 60, 0.5);
+    --Page-title-bg-color: rgb(28, 49, 94);
+
+    /* Scroll Bar Color  */
+    --Scroll-bar-bg-color: crimson;
+
+    /* Primary Button Color  */
+    --pri-btn-bg-color: #A8CDFF;
+    --pri-btn-color: #000;
+    --pri-btn-hover-border-color: #a8cdff;
+    --pri-btn-hover-text-color: #a8cdff;
+
+    /* Transitions */
+    --pri-transition: all 0.2s ease-in-out;
+    --time-transition: 0.3s;
+
+    /* Borders */
+    --pri-border: green 1px solid;
+    --sec-border: red 1px solid;
+    --3rd-border: blue 1px solid;
+    /* Navbar Colors  */
+    --nav-link: #fff;
+    /* --nav-link-hover: crimson; */
+    --nav-link-hover: rgb(168, 205, 255);
+    --nav-bg: rgba(0, 0, 0, 0.3);
+    /* Profile Pic Borders  */
+    --profile-img-width-height: 250px;
+    --profile-img-color: #A8CDFF;
+
+    --main-border-width-height: 243px;
+    --main-border-color: var(--body-bg);
+
+    --bg-color-width-height: 215px;
+    --bg-color-color: #495579;
+    --bg-color-hover-color: #1C315E;
+
+    /* About Project-Xp - colos  */
+    --about-display-color: #a8cdff;
+
+    /* Project Grid Overlay */
+    --overlay-hover-bg-color: rgba(0, 0, 0, 0.9);
+    --overlay-hover-color: rgba(0, 0, 0, 0.8);
+    --project-name-bg-color: rgba(168, 205, 255, 0.4);
+
+    /* Skill Section Amounts */
+    --amount-html: 80%;
+    --amount-css: 45%;
+    --amount-javascript: 30%;
+    --amount-figma: 75%;
+    --amount-Photo-Shop: 25%;
+    --amount-go-lang: 1%;
+
+    /* Education Section */
+    --edu-card-bg: rgb(168, 205, 255);
+
+    /* Contact Section  */
+    --icon-bg: #a8cdff;
+    --icon-color: #000;
+
+}

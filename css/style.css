@@ -765,7 +765,12 @@ transform: rotate(45deg) translate(0, -11px);
 .skills .forntEnd .css .status .bar-section .bar::after {
     width: var(--amount-css);
 }
-
+/* ===========================
+            Python 
+============================== */
+.skills .forntEnd .py .status .bar-section .bar::after {
+    width: var(--amount-python);
+}
 /* ===========================
             JavaScript 
 ============================== */
